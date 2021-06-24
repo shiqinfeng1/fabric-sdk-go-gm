@@ -16,8 +16,6 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/tjfoc/gmsm/sm2"
-	"github.com/tjfoc/gmsm/sm4"
 	"io"
 	"io/ioutil"
 	"os"
@@ -25,7 +23,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/tjfoc/gmsm/sm2"
+	"github.com/tjfoc/gmsm/sm4"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 // NewFileBasedKeyStore instantiated a file-based key store at a given position.

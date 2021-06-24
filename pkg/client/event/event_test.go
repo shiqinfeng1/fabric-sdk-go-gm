@@ -10,21 +10,21 @@ import (
 	"testing"
 	"time"
 
-	txnmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	contextImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	fcmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
+	txnmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	contextImpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	fcmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/deliverclient/seek"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
-	servicemocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/mocks"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/deliverclient/seek"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
+	servicemocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service/mocks"
 )
 
 var (

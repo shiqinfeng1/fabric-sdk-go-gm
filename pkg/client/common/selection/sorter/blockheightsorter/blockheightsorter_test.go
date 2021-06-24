@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/balancer"
-	fab "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	emocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/balancer"
+	fab "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	emocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

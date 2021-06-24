@@ -26,22 +26,23 @@ import (
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/gm"
-	cspsigner "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/signer"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/wrapper"
-	"github.com/tjfoc/gmsm/sm2"
-	tls "github.com/tjfoc/gmtls"
 	"io/ioutil"
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/gm"
+	cspsigner "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/signer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/wrapper"
+	"github.com/tjfoc/gmsm/sm2"
+	tls "github.com/tjfoc/gmtls"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/csr"
-	factory "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	log "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+
 	"github.com/cloudflare/cfssl/helpers"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/cfssl/csr"
+	factory "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	log "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 )
 
 // getBCCSPKeyOpts generates a key as specified in the request.

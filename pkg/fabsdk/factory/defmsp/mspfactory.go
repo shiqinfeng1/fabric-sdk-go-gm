@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package defmsp
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	kvs "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/keyvaluestore"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk/provider/msppvdr"
-	mspimpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	kvs "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/keyvaluestore"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk/provider/msppvdr"
+	mspimpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp"
 )
 
 // ProviderFactory represents the default MSP provider factory.

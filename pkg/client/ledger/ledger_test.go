@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	txnmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	contextImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	fcmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
+	txnmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	contextImpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	fcmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 )
 

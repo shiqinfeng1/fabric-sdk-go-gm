@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package api
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 )
 
 // EventEndpoint extends a Peer endpoint and provides the

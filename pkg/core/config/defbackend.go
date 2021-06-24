@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package config
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/pathvar"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/pathvar"
 	"github.com/spf13/viper"
 )
 

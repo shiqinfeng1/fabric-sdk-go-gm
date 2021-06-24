@@ -15,14 +15,15 @@ import (
 	"crypto/x509/pkix"
 	"encoding/hex"
 	"encoding/pem"
+
 	"github.com/tjfoc/gmsm/sm2"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
-	factory "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
 	"github.com/golang/protobuf/proto"
 	m "github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
+	factory "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
 )
 
 // mspSetupFuncType is the prototype of the setup function

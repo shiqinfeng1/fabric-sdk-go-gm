@@ -5,9 +5,9 @@ import (
 	reqContext "context"
 	"sync"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/resource"
 	"github.com/hyperledger/fabric-protos-go/common"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/resource"
 )
 
 type MockLifecycleResource struct {

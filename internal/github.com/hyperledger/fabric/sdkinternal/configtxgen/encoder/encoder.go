@@ -11,21 +11,21 @@ Please review third_party pinning scripts and patches for more details.
 package encoder
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/channelconfig"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/genesis"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policies"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/util"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/protoutil"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/configtxgen/genesisconfig"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/configtxlator/update"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/pkg/identity"
-	flogging "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/golang/protobuf/proto"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/channelconfig"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/genesis"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policies"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/util"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/configtxgen/genesisconfig"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/configtxlator/update"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/pkg/identity"
+	flogging "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 )
 
 const (

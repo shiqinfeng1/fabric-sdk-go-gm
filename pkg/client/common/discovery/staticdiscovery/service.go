@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package staticdiscovery
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 )
 
 // DiscoveryService implements a static discovery service

@@ -2,12 +2,12 @@
 //
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/VoneChain-CS/fabric-sdk-go-gm/test/performance
+module github.com/shiqinfeng1/fabric-sdk-go-gm/test/performance
 
-replace github.com/VoneChain-CS/fabric-sdk-go-gm => ../../
+replace github.com/shiqinfeng1/fabric-sdk-go-gm => ../../
 
 require (
-	github.com/VoneChain-CS/fabric-sdk-go-gm v0.0.0-00010101000000-000000000000
+	github.com/shiqinfeng1/fabric-sdk-go-gm v0.0.0-00010101000000-000000000000
 	github.com/golang/protobuf v1.3.3
 	github.com/hyperledger/fabric-protos-go v0.0.0-20200707132912-fee30f3ccd23
 	github.com/pkg/errors v0.8.1

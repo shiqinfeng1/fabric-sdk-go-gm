@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/metadata"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/resource/genesisconfig"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/resource/genesisconfig"
 	"github.com/stretchr/testify/require"
 )
 

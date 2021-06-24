@@ -10,13 +10,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk/factory/defcore"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk/factory/defcore"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

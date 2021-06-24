@@ -12,13 +12,14 @@ package x509
 
 import (
 	"fmt"
+
 	"github.com/tjfoc/gmsm/sm2"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/attrmgr"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/attrmgr"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 )
 
 // NewSigner is constructor for Signer

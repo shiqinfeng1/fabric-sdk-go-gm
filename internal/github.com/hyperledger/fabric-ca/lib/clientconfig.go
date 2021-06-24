@@ -21,10 +21,10 @@ Please review third_party pinning scripts and patches for more details.
 package lib
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
 
-	tls "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/tls"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/tls"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
 )
 
 // ClientConfig is the fabric-ca client's config

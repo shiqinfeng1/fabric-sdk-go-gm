@@ -11,12 +11,12 @@ package chpvdr
 import (
 	"sync"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/chconfig"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/chconfig"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 )
 
 // SetChannelConfig allows setting channel configuration.

@@ -7,28 +7,29 @@ SPDX-License-Identifier: Apache-2.0
 package fab
 
 import (
-	"github.com/tjfoc/gmsm/sm2"
-	tls "github.com/tjfoc/gmtls"
 	"reflect"
 	"regexp"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/multi"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/status"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	commtls "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/comm/tls"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/cryptoutil"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/lookup"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/pathvar"
+	"github.com/tjfoc/gmsm/sm2"
+	tls "github.com/tjfoc/gmtls"
+
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/multi"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/status"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	commtls "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/comm/tls"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/cryptoutil"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/lookup"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/pathvar"
 	grpcCodes "google.golang.org/grpc/codes"
 )
 
@@ -1845,7 +1846,7 @@ func detectDeprecatedNetworkConfig(endpointConfig *EndpointConfig) {
 	for _, v := range endpointConfig.networkConfig.Channels {
 		if len(v.Orderers) > 0 {
 			logger.Warn("Getting orderers from endpoint config channels.orderer is deprecated, use entity matchers to override orderer configuration")
-			logger.Warn("visit https://github.com/VoneChain-CS/fabric-sdk-go-gm/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
+			logger.Warn("visit https://github.com/shiqinfeng1/fabric-sdk-go-gm/blob/master/test/fixtures/config/overrides/local_entity_matchers.yaml for samples")
 			break
 		}
 	}

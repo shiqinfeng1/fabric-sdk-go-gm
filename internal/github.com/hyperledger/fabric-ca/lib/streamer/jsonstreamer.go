@@ -32,9 +32,9 @@ import (
 	"reflect"
 	"strings"
 
-	log "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 	"github.com/cloudflare/cfssl/api"
 	"github.com/pkg/errors"
+	log "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 )
 
 // SearchElement defines the JSON arrays for which to search

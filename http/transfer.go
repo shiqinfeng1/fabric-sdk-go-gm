@@ -9,8 +9,6 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http/httptrace"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http/internal"
 	"io"
 	"io/ioutil"
 	"net/textproto"
@@ -20,6 +18,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/httptrace"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/internal"
 
 	"golang.org/x/net/http/httpguts"
 )

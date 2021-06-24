@@ -9,10 +9,10 @@ package msp
 import (
 	"github.com/golang/protobuf/proto"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
 	pb_msp "github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
 )
 
 // User is a representation of a Fabric user

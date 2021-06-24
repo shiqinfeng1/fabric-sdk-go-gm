@@ -9,7 +9,7 @@ package msp
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
 )
 
 // TODO Add tests

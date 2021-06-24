@@ -9,9 +9,9 @@ package mocks
 import (
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 )
 
 // MockEventService implements a mock event service

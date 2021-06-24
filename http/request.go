@@ -13,8 +13,6 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http/httptrace"
-	tls "github.com/tjfoc/gmtls"
 	"io"
 	"io/ioutil"
 	"mime"
@@ -26,6 +24,9 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/httptrace"
+	tls "github.com/tjfoc/gmtls"
 
 	"golang.org/x/net/idna"
 )

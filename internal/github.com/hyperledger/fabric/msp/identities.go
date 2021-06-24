@@ -14,21 +14,22 @@ import (
 	"crypto"
 	"crypto/rand"
 	"encoding/hex"
+
 	"github.com/tjfoc/gmsm/sm2"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
 
 	"encoding/pem"
 	"fmt"
 	"sync"
 	"time"
 
-	bccsp "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
-	flogging "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
-	logging "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/pkg/errors"
+	bccsp "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/cryptosuitebridge"
+	flogging "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	logging "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 )
 
 var mspIdentityLogger = flogging.MustGetLogger("msp.identity")

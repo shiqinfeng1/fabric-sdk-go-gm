@@ -10,26 +10,26 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/resource"
 	"github.com/hyperledger/fabric-protos-go/common"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/resource"
 
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	contextImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/orderer"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
 	"github.com/golang/protobuf/proto"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	contextImpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/orderer"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/metadata"
 
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	fabImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config"
+	fabImpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

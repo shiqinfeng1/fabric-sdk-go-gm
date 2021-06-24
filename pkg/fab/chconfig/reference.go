@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package chconfig
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	contextImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	contextImpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 )
 
 // Ref channel configuration lazy reference

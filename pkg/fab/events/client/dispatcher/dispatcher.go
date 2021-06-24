@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/api"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver"
-	esdispatcher "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/api"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver"
+	esdispatcher "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

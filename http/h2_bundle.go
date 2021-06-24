@@ -27,7 +27,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http/httptrace"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/httptrace"
 	"io"
 	"io/ioutil"
 	"log"

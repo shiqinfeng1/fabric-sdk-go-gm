@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	fabmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	fabmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 )
 
 // NewMockConfig returns a mock endpoint config with the given event service policy for the given channel

@@ -21,10 +21,10 @@ import (
 	grpcCodes "google.golang.org/grpc/codes"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/status"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/test/mockfab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/status"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/test/mockfab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 )
 
 const (

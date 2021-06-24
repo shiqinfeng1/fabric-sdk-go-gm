@@ -15,7 +15,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/metrics"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/metrics"
 )
 
 type Namer struct {

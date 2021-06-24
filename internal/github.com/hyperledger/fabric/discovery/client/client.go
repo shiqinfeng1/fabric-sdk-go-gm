@@ -17,12 +17,12 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/protoext"
-	gprotoext "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/gossip/protoext"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/discovery"
 	"github.com/hyperledger/fabric-protos-go/msp"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/protoext"
+	gprotoext "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/gossip/protoext"
 )
 
 var configTypes = []protoext.QueryType{

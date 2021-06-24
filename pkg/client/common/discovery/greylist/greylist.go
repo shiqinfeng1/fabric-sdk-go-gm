@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/status"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/status"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
 )
 
 var logger = logging.NewLogger("fabsdk/client")

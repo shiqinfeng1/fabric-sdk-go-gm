@@ -7,19 +7,20 @@ SPDX-License-Identifier: Apache-2.0
 package comm
 
 import (
-	"github.com/tjfoc/gmsm/sm2"
 	"sync/atomic"
+
+	"github.com/tjfoc/gmsm/sm2"
 
 	"github.com/pkg/errors"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/verifier"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	fabcontext "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/comm"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/verifier"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	fabcontext "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/comm"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
 	credentials "github.com/tjfoc/gmtls/gmcredentials"
 	"google.golang.org/grpc"
 )

@@ -9,9 +9,9 @@ package membership
 import (
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 )
 
 // Ref membership reference that refreshes to load the given channel config reference

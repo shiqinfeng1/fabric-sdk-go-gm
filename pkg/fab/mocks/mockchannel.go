@@ -9,10 +9,10 @@ package mocks
 import (
 	"github.com/pkg/errors"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 )
 
 //Channel supplies the configuration for channel context client

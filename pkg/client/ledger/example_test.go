@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	sdkCtx "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
 	"github.com/golang/protobuf/proto"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	sdkCtx "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 )
 
 func Example() {

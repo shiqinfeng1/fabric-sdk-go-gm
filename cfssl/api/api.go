@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/errors"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/log"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/cfssl/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/cfssl/log"
 )
 
 // Handler is an interface providing a generic mechanism for handling HTTP requests.

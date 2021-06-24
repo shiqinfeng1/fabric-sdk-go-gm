@@ -8,16 +8,17 @@ package msp
 
 import (
 	"encoding/json"
+
 	"github.com/pkg/errors"
 
-	calib "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
-	caapi "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/api"
+	calib "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	caapi "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/api"
 )
 
 // fabricCAAdapter translates between SDK lingo and native Fabric CA API

@@ -14,13 +14,13 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/capabilities"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/util"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/capabilities"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/util"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
 )
 
 // Channel config keys

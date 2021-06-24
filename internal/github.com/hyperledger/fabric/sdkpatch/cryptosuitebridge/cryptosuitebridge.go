@@ -14,11 +14,11 @@ import (
 	"crypto"
 	"crypto/ecdsa"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	cspsigner "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/signer"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	cspsigner "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/signer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite"
 )
 
 const (

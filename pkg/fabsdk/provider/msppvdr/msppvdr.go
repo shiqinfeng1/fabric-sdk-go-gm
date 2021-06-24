@@ -9,11 +9,11 @@ package msppvdr
 import (
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	mspimpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	mspimpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp"
 )
 
 // MSPProvider provides the default implementation of MSP

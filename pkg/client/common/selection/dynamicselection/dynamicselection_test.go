@@ -10,16 +10,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/core/common/ccprovider"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/dynamicselection/pgresolver"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	coptions "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/core/common/ccprovider"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/dynamicselection/pgresolver"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	coptions "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 )
 
 const (

@@ -6,9 +6,10 @@ package httptrace_test
 
 import (
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http/httptrace"
 	"log"
 	"net/http"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/httptrace"
 )
 
 func Example() {

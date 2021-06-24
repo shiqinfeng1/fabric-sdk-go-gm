@@ -10,13 +10,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/discovery/staticdiscovery"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	fabImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab"
-	mocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/discovery/staticdiscovery"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config"
+	fabImpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab"
+	mocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/metadata"
 )
 
 const configFile = "config_test.yaml"

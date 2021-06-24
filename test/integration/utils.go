@@ -14,16 +14,16 @@ import (
 	"testing"
 	"time"
 
-	mspclient "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/resmgmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	fabApi "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/lookup"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
 	"github.com/pkg/errors"
+	mspclient "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/resmgmt"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	fabApi "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/lookup"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp"
 )
 
 const (

@@ -9,10 +9,10 @@ package balanced
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	clientmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	clientmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

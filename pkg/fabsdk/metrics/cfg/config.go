@@ -9,9 +9,9 @@ package cfg
 import (
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/lookup"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/lookup"
 )
 
 // MetricsConfig contains operations system and metrics configuration

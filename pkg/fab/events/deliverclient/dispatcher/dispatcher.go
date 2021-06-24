@@ -7,18 +7,18 @@ SPDX-License-Identifier: Apache-2.0
 package dispatcher
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	fabcontext "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/api"
-	clientdisp "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/deliverclient/connection"
-	esdispatcher "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	fabcontext "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/api"
+	clientdisp "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/deliverclient/connection"
+	esdispatcher "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

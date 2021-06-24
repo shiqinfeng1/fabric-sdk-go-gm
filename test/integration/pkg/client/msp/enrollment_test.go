@@ -12,12 +12,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	mspctx "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	mspctx "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

@@ -27,12 +27,13 @@ import (
 	"encoding/asn1"
 	"encoding/pem"
 	"fmt"
-	"github.com/tjfoc/gmsm/sm2"
 	"math/big"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
+	"github.com/tjfoc/gmsm/sm2"
+
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"
 )
 
 type validity struct {

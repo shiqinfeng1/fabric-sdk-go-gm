@@ -23,7 +23,7 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 type aesPrivateKey struct {

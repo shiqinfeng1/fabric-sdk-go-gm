@@ -11,9 +11,9 @@ Please review third_party pinning scripts and patches for more details.
 package credential
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
 )
 
 // Credential represents an credential of an identity

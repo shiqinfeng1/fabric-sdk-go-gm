@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package msp
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	commtls "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/comm/tls"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	commtls "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/comm/tls"
 )
 
 // IdentityConfigOptions represents IdentityConfig interface with overridable interface functions

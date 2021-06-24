@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk"
 )
 
 const testPrivKey string = `-----BEGIN PRIVATE KEY-----

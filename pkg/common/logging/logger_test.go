@@ -10,9 +10,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/logging/api"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/logging/modlog"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/logging/testdata"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/logging/api"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/logging/modlog"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/logging/testdata"
 	"github.com/stretchr/testify/assert"
 )
 

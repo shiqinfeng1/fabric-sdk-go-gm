@@ -16,19 +16,19 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/testdata"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/channel"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	contextImpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	fcmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk/provider/chpvdr"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/pathvar"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/channel"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	contextImpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	fcmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk/provider/chpvdr"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/pathvar"
 	"github.com/stretchr/testify/require"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/third_party/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/third_party/github.com/hyperledger/fabric/core/common/ccprovider"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/third_party/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/third_party/github.com/hyperledger/fabric/core/common/ccprovider"
 )
 
 const (

@@ -13,15 +13,15 @@ import (
 
 	"encoding/hex"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	mspctx "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/sw"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	mspimpl "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	mspctx "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite/bccsp/sw"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk"
+	mspimpl "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/integration"
 )
 
 // TestWithCustomStores demonstrates the usage of custom key and cert stores

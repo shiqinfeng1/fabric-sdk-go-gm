@@ -8,15 +8,16 @@ package peer
 
 import (
 	reqContext "context"
+
 	"github.com/tjfoc/gmsm/sm2"
 
 	"github.com/spf13/cast"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/verifier"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/verifier"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

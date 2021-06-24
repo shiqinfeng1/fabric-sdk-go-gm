@@ -15,13 +15,13 @@ SPDX-License-Identifier: Apache-2.0
 package event
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/deliverclient"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/deliverclient/seek"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/deliverclient"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/deliverclient/seek"
 )
 
 // Client enables access to a channel events on a Fabric network.

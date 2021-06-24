@@ -12,17 +12,17 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/channel"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/lookup"
-	mockCore "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk/provider/chpvdr"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/metadata"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/channel"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/lookup"
+	mockCore "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk/provider/chpvdr"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/metadata"
 )
 
 const (

@@ -9,8 +9,8 @@ package fab
 import (
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
 )
 
 // ClientConfig provides the definition of the client configuration

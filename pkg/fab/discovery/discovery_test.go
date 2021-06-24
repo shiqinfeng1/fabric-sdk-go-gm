@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/comm"
-	discmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/discovery/mocks"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/hyperledger/fabric-protos-go/discovery"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/comm"
+	discmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/discovery/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 )

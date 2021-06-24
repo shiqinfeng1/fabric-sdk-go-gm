@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package pgresolver
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 )
 
 // PeerGroupResolver resolves a group of peers that would (exactly) satisfy

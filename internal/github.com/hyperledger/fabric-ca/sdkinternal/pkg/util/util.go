@@ -27,15 +27,15 @@ import (
 	"encoding/json"
 	"encoding/pem"
 	"fmt"
-	"github.com/tjfoc/gmsm/sm2"
 	"io/ioutil"
 	"math/big"
 	mrand "math/rand"
 
-	factory "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/tjfoc/gmsm/sm2"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http"
+	factory "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+
 	"os"
 	"path"
 	"path/filepath"
@@ -43,6 +43,8 @@ import (
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http"
 
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/ocsp"

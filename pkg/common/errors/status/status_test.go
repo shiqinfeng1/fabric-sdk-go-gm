@@ -10,10 +10,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/multi"
 	"github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/multi"
 	"github.com/stretchr/testify/assert"
 	grpccodes "google.golang.org/grpc/codes"
 	grpcstatus "google.golang.org/grpc/status"

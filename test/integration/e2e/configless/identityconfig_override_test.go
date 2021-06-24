@@ -10,10 +10,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/pathvar"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/pathvar"
 )
 
 // identityconfig_override_test.go is an example of programmatically configuring the client by injecting instances that implement IdentityConfig's functions (representing the client's msp configs)

@@ -11,9 +11,9 @@ import (
 	"encoding/pem"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/attrmgr"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/msp"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/attrmgr"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/msp"
 	"github.com/stretchr/testify/require"
 )
 

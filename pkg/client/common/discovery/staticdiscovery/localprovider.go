@@ -7,9 +7,9 @@ SPDX-License-Identifier: Apache-2.0
 package staticdiscovery
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	contextAPI "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	contextAPI "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 
 	"github.com/pkg/errors"
 )

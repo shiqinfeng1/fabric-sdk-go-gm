@@ -16,17 +16,18 @@ import (
 	"encoding/json"
 	"encoding/pem"
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/grantae/certinfo"
-	tls "github.com/tjfoc/gmtls"
 	"io/ioutil"
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/cloudflare/cfssl/log"
+	"github.com/grantae/certinfo"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http"
+	tls "github.com/tjfoc/gmtls"
+
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
 	"github.com/spf13/viper"
 	"github.com/tjfoc/gmsm/sm2"
 )

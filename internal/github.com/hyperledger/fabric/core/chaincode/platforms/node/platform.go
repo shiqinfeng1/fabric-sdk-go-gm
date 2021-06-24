@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/core/chaincode/platforms/util"
-	flogging "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/core/chaincode/platforms/util"
+	flogging "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 )
 
 var logger = flogging.MustGetLogger("chaincode.platform.node")

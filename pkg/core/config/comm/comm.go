@@ -10,9 +10,9 @@ import (
 	"github.com/tjfoc/gmsm/sm2"
 	tls "github.com/tjfoc/gmtls"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/cryptosuite"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/cryptosuite"
 )
 
 // TLSConfig returns the appropriate config for TLS including the root CAs,

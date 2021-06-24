@@ -14,11 +14,12 @@ import (
 	"crypto/elliptic"
 	"crypto/sha256"
 	"crypto/sha512"
-	"github.com/tjfoc/gmsm/sm3"
 	"reflect"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/tjfoc/gmsm/sm3"
+
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
 	"golang.org/x/crypto/sha3"
 )
 

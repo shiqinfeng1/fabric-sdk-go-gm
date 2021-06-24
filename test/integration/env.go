@@ -9,9 +9,9 @@ package integration
 import (
 	"os"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/pathvar"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/pathvar"
 )
 
 const (

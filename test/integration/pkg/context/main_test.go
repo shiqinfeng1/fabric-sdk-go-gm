@@ -8,9 +8,9 @@ package context
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration/util/runner"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/integration"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/integration/util/runner"
 )
 
 const (

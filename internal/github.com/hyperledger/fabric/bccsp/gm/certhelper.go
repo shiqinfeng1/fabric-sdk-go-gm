@@ -21,7 +21,7 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/tjfoc/gmsm/sm2"
 )
 

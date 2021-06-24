@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package gateway
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/channel"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/event"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/channel"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/event"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 )
 
 // A Network object represents the set of peers in a Fabric network (channel).

@@ -15,11 +15,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/pkg/identity"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkinternal/pkg/identity"
 )
 
 // MarshalOrPanic serializes a protobuf message and panics if this

@@ -20,7 +20,6 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http/httptrace"
 	"go/token"
 	"internal/nettrace"
 	"io"
@@ -42,6 +41,8 @@ import (
 	"sync/atomic"
 	"testing"
 	"time"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 )

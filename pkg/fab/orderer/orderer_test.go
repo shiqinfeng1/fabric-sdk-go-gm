@@ -18,15 +18,15 @@ import (
 	"google.golang.org/grpc"
 	grpccodes "google.golang.org/grpc/codes"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/status"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/test/mockfab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/endpoint"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/status"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/test/mockfab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -10,8 +10,8 @@ import (
 	"crypto/sha256"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 
 	"github.com/pkg/errors"
 )

@@ -15,15 +15,15 @@ import (
 
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/comm"
-	clientdisp "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/deliverclient/seek"
-	eventmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/mocks"
-	fabmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/comm"
+	clientdisp "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/deliverclient/seek"
+	eventmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/mocks"
+	fabmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
 	"google.golang.org/grpc"
 )
 

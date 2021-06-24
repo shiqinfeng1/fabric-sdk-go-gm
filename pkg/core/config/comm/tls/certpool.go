@@ -7,11 +7,12 @@ SPDX-License-Identifier: Apache-2.0
 package tls
 
 import (
-	"github.com/tjfoc/gmsm/sm2"
 	"sync"
 	"sync/atomic"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/tjfoc/gmsm/sm2"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

@@ -7,17 +7,17 @@ SPDX-License-Identifier: Apache-2.0
 package chpvdr
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/discovery/dynamicdiscovery"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/discovery/staticdiscovery"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/dynamicselection"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/fabricselection"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/channel/membership"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/chconfig"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/deliverclient"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/discovery/dynamicdiscovery"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/discovery/staticdiscovery"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/dynamicselection"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/fabricselection"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/channel/membership"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/chconfig"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/deliverclient"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
 )
 
 type cache interface {

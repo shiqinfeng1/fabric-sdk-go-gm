@@ -8,11 +8,12 @@ package comm
 
 import (
 	"context"
-	"github.com/tjfoc/gmsm/sm2"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/tjfoc/gmsm/sm2"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/spf13/cast"
 	"google.golang.org/grpc/keepalive"
 )

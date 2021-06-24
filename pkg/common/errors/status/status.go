@@ -17,8 +17,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/multi"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/multi"
 	grpcstatus "google.golang.org/grpc/status"
 )
 

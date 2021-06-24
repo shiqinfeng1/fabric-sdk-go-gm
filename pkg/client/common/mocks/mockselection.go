@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package mocks
 
 import (
-	selectopts "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
+	selectopts "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 )
 
 // MockSelectionService implements mock selection service

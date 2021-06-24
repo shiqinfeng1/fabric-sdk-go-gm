@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"net/http"
 
-	flogging "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
+	flogging "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/sdkpatch/logbridge"
 )
 
 //go:generate counterfeiter -o fakes/logging.go -fake-name Logging . Logging

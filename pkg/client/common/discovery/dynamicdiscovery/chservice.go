@@ -7,15 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package dynamicdiscovery
 
 import (
-	discclient "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/client"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/random"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/multi"
-	coptions "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	contextAPI "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	reqContext "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	fabdiscovery "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/discovery"
 	"github.com/pkg/errors"
+	discclient "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/client"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/random"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/multi"
+	coptions "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	contextAPI "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	reqContext "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	fabdiscovery "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/discovery"
 )
 
 // ChannelService implements a dynamic Discovery Service that queries

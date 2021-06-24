@@ -7,7 +7,7 @@ SPDX-License-Identifier: Apache-2.0
 package lbp
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 )
 
 // LoadBalancePolicy chooses a peer from a set of peers

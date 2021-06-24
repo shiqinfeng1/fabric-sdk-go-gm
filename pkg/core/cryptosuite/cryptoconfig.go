@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/lookup"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/pathvar"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/lookup"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/pathvar"
 	"github.com/spf13/cast"
 )
 

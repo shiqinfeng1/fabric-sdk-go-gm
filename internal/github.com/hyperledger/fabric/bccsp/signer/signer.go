@@ -12,12 +12,13 @@ package signer
 
 import (
 	"crypto"
-	"github.com/tjfoc/gmsm/sm2"
 	"io"
+
+	"github.com/tjfoc/gmsm/sm2"
 
 	"github.com/pkg/errors"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
 )
 
 // bccspCryptoSigner is the BCCSP-based implementation of a crypto.Signer

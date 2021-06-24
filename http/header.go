@@ -5,13 +5,14 @@
 package http
 
 import (
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http/httptrace"
 	"io"
 	"net/textproto"
 	"sort"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/httptrace"
 )
 
 // A Header represents the key-value pairs in an HTTP header.

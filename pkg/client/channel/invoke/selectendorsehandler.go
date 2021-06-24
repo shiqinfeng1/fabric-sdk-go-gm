@@ -7,17 +7,17 @@ SPDX-License-Identifier: Apache-2.0
 package invoke
 
 import (
-	selectopts "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/peer"
 	"github.com/pkg/errors"
+	selectopts "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/peer"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
 	"github.com/golang/protobuf/proto"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/core/ledger/kvledger/txmgmt/rwsetutil"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
 )
 
 var logger = logging.NewLogger("fabsdk/client")

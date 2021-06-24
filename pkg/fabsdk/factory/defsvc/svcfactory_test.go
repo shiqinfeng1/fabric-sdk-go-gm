@@ -9,8 +9,8 @@ package defsvc
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/discovery/staticdiscovery"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/discovery/staticdiscovery"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 )
 
 func TestCreateLocalDiscoveryProvider(t *testing.T) {

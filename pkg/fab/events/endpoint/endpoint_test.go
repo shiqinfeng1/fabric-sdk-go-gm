@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	clientmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/mocks"
-	fabmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
-	mspmocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/test"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	clientmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/mocks"
+	fabmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
+	mspmocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/test/mockmsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/test"
 )
 
 const (

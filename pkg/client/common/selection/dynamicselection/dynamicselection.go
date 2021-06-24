@@ -9,16 +9,16 @@ package dynamicselection
 import (
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazycache"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/util/concurrent/lazyref"
 
-	copts "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	copts "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/dynamicselection/pgresolver"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/client/common/selection/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/dynamicselection/pgresolver"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/client/common/selection/options"
 )
 
 const defaultCacheTimeout = 30 * time.Minute

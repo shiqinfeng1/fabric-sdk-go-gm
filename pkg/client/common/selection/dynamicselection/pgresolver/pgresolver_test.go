@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	mocks "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/mocks"
 	common "github.com/hyperledger/fabric-protos-go/common"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	mocks "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/mocks"
 )
 
 const (

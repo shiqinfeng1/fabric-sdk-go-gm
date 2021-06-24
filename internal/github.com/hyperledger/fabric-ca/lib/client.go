@@ -14,8 +14,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/http"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/core"
 	"io/ioutil"
 	"net"
 	"net/url"
@@ -25,17 +23,20 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/cfssl/csr"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	x509cred "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/streamer"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/tls"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
-	log "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/http"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"
+
 	cfsslapi "github.com/cloudflare/cfssl/api"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/cfssl/csr"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	x509cred "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/streamer"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/lib/tls"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	log "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/logbridge"
 )
 
 // Client is the fabric-ca client object

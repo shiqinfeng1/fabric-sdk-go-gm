@@ -18,15 +18,15 @@ package msp
 import (
 	"fmt"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	mspctx "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/msp"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp"
-	mspapi "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/msp/api"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	mspctx "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/msp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp"
+	mspapi "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/msp/api"
 )
 
 // Client enables access to Client services

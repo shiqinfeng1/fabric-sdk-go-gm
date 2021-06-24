@@ -9,7 +9,7 @@ package mocks
 import (
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config"
 )
 
 //MockConfigBackend mocks config backend for unit tests

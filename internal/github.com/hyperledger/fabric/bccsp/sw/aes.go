@@ -29,7 +29,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
 )
 
 // GetRandomBytes returns len random looking bytes

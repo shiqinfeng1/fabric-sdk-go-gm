@@ -8,7 +8,7 @@ package metadata
 import (
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/logging/api"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/logging/api"
 	"github.com/stretchr/testify/assert"
 )
 

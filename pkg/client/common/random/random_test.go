@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	pfab "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
+	pfab "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
 	"github.com/stretchr/testify/assert"
 )
 

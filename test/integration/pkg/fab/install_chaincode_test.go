@@ -13,16 +13,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/errors/retry"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/context"
-	packager "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/ccpackager/gopackager"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/resource"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fabsdk"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/test/integration"
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/peer"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/retry"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
+	packager "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/ccpackager/gopackager"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/resource"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fabsdk"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/test/integration"
 	"github.com/stretchr/testify/require"
 )
 

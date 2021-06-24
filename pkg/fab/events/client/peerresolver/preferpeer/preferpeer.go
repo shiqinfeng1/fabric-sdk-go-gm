@@ -9,14 +9,14 @@ package preferpeer
 import (
 	"strings"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver/minblockheight"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver/preferorg"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver/minblockheight"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/peerresolver/preferorg"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/options"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
-	eventservice "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service"
-	esdispatcher "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 	"github.com/pkg/errors"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/client/dispatcher"
+	eventservice "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service"
+	esdispatcher "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/events/service/dispatcher"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

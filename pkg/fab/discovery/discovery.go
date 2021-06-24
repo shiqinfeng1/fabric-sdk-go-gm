@@ -11,14 +11,14 @@ import (
 	"strings"
 	"sync"
 
-	discclient "github.com/VoneChain-CS/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/client"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/logging"
-	fabcontext "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/context"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/common/providers/fab"
-	corecomm "github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/core/config/comm"
-	"github.com/VoneChain-CS/fabric-sdk-go-gm/pkg/fab/comm"
 	"github.com/hyperledger/fabric-protos-go/discovery"
 	"github.com/pkg/errors"
+	discclient "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/discovery/client"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/logging"
+	fabcontext "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
+	corecomm "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/comm"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/fab/comm"
 	"google.golang.org/grpc"
 )
 
