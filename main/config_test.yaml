@@ -41,7 +41,7 @@ client:
     # requiring a key store. PKCS#11 based implementations does not.
     cryptoStore:
       # Specific to the underlying KeyValueStore that backs the crypto key store.
-      path: /opt/goworkspace/src/github.com/VoneChain-CS/fabric-gm/scripts/fabric-samples/first-network/crypto-config/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp
+      path: /opt/goworkspace/src/github.com/shiqinfeng1/fabric-gm/scripts/fabric-samples/first-network/crypto-config/peerOrganizations/org3.example.com/users/Admin@org3.example.com/msp
 
     # BCCSP config for the client. Used by GO SDK.
   BCCSP:
