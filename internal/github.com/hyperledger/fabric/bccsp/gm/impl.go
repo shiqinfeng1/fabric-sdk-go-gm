@@ -25,7 +25,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/tjfoc/gmsm/sm3"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm3"
 	"golang.org/x/crypto/sha3"
 )
 

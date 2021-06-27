@@ -1,4 +1,4 @@
-module github.com/spf13/cast
+module github.com/shiqinfeng1/fabric-sdk-go-gm/spf13/cast
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect

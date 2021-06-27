@@ -14,7 +14,7 @@ import (
 	"crypto"
 	"io"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/pkg/errors"
 

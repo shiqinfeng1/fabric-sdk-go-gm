@@ -17,7 +17,7 @@ package sw
 
 import (
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/tjfoc/gmsm/sm4"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm4"
 )
 
 // GetRandomBytes returns len random looking bytes

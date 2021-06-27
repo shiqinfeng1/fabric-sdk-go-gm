@@ -4,9 +4,9 @@ github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
-# github.com/tjfoc/gmsm v1.2.0
-github.com/tjfoc/gmsm/sm2
-github.com/tjfoc/gmsm/sm3
+# github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm v1.2.0
+github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2
+github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm3
 # golang.org/x/crypto v0.0.0-20191219195013-becbf705a915
 golang.org/x/crypto/chacha20poly1305
 golang.org/x/crypto/curve25519

@@ -27,7 +27,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 )
 
 // struct to hold info required for PKCS#8

@@ -2,8 +2,8 @@ package sarama
 
 import (
 	"compress/gzip"
-	tls "github.com/tjfoc/gmtls"
 	"fmt"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 	"io/ioutil"
 	"net"
 	"regexp"

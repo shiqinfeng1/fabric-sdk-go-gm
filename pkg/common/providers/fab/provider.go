@@ -10,7 +10,7 @@ import (
 	reqContext "context"
 	"time"
 
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"

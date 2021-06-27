@@ -9,7 +9,7 @@ package comm
 import (
 	"sync/atomic"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/pkg/errors"
 
@@ -21,7 +21,7 @@ import (
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/context"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/comm"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/endpoint"
-	credentials "github.com/tjfoc/gmtls/gmcredentials"
+	credentials "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls/gmcredentials"
 	"google.golang.org/grpc"
 )
 

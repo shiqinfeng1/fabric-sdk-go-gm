@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	commtls "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/core/config/comm/tls"
 

@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package comm
 
 import (
-	"github.com/tjfoc/gmsm/sm2"
-	tls "github.com/tjfoc/gmtls"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 
 	"github.com/pkg/errors"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"

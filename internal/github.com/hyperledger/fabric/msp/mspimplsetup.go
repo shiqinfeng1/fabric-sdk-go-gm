@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/golang/protobuf/proto"
 	m "github.com/hyperledger/fabric-protos-go/msp"

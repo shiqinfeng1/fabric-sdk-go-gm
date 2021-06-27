@@ -30,7 +30,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/pkg/errors"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/utils"

@@ -24,12 +24,12 @@ import (
 	"github.com/cloudflare/cfssl/log"
 	"github.com/grantae/certinfo"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/http"
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 
 	"github.com/pkg/errors"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 	"github.com/spf13/viper"
-	"github.com/tjfoc/gmsm/sm2"
 )
 
 var clientAuthTypes = map[string]tls.ClientAuthType{

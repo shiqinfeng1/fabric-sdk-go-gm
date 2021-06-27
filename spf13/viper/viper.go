@@ -32,9 +32,9 @@ import (
 
 	"github.com/kr/pretty"
 	"github.com/mitchellh/mapstructure"
-	"github.com/spf13/cast"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/spf13/cast"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/spf13/pflag"
 	jww "github.com/spf13/jwalterweatherman"
-	"github.com/spf13/pflag"
 )
 
 var v *Viper

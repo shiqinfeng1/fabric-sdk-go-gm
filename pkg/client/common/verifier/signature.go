@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/status"

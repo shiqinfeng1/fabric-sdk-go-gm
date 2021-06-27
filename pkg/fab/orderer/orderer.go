@@ -12,12 +12,12 @@ import (
 	"io"
 	"time"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/pkg/errors"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/multi"
-	"github.com/spf13/cast"
-	credentials "github.com/tjfoc/gmtls/gmcredentials"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/spf13/cast"
+	credentials "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls/gmcredentials"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 	grpcstatus "google.golang.org/grpc/status"

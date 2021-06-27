@@ -1,9 +1,9 @@
 package sarama
 
 import (
-	tls "github.com/tjfoc/gmtls"
 	"encoding/binary"
 	"fmt"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 	"io"
 	"net"
 	"strconv"

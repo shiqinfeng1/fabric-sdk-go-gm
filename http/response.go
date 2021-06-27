@@ -11,7 +11,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 	"io"
 	"net/textproto"
 	"net/url"

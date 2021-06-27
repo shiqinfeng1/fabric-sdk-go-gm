@@ -16,7 +16,7 @@ import (
 	"crypto/sha512"
 	"reflect"
 
-	"github.com/tjfoc/gmsm/sm3"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm3"
 
 	"github.com/pkg/errors"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"

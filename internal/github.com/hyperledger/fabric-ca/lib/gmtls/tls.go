@@ -28,8 +28,8 @@ import (
 	"github.com/cloudflare/cfssl/log"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp/factory"
-	"github.com/tjfoc/gmsm/sm2"
-	gtls "github.com/tjfoc/gmtls"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
+	gtls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 )
 
 // ServerTLSConfig defines key material for a TLS server

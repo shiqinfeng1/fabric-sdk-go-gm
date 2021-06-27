@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric/bccsp"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 )
 
 //定义国密SM2 keygen 结构体，实现 KeyGenerator 接口

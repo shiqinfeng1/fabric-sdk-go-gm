@@ -15,7 +15,7 @@ import (
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/options"
 	fabcontext "github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/context"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/fab"
-	credentials "github.com/tjfoc/gmtls/gmcredentials"
+	credentials "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls/gmcredentials"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
 )

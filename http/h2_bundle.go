@@ -50,7 +50,7 @@ import (
 	"golang.org/x/net/http2/hpack"
 	"golang.org/x/net/idna"
 
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 )
 
 // A list of the possible cipher suite ids. Taken from

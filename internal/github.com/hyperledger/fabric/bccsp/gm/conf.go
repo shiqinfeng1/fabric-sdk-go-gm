@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/tjfoc/gmsm/sm3"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm3"
 )
 
 type config struct {

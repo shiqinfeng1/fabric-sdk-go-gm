@@ -20,7 +20,7 @@ import (
 	"encoding/asn1"
 	"encoding/json"
 	"fmt"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/pkg/errors"
 )

@@ -9,7 +9,7 @@ package fab
 import (
 	"time"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/errors/retry"
 )

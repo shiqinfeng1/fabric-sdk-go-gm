@@ -1,4 +1,4 @@
-module github.com/tjfoc/gmsm
+module github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm
 
 go 1.12
 

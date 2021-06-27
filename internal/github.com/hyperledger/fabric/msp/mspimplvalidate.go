@@ -14,7 +14,7 @@ import (
 	"bytes"
 	"crypto/x509/pkix"
 	"encoding/asn1"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 	"math/big"
 	"reflect"
 	"time"

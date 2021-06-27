@@ -26,7 +26,7 @@ import (
 	"sync"
 
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/http/httptrace"
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 
 	"golang.org/x/net/idna"
 )

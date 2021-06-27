@@ -9,8 +9,8 @@ package mockfab
 import (
 	"time"
 
-	"github.com/tjfoc/gmsm/sm2"
-	tls "github.com/tjfoc/gmtls"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 
 	"github.com/golang/mock/gomock"
 	"github.com/pkg/errors"

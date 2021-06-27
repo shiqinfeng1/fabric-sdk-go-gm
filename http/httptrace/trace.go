@@ -14,7 +14,7 @@ import (
 	"time"
 
 	nettrace "github.com/shiqinfeng1/fabric-sdk-go-gm/http/internal/netttrace"
-	tls "github.com/tjfoc/gmtls"
+	tls "github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmtls"
 )
 
 // unique type to prevent assignment.

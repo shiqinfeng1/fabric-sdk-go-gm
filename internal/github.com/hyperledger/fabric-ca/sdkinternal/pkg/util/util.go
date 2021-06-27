@@ -31,7 +31,7 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 
 	factory "github.com/shiqinfeng1/fabric-sdk-go-gm/internal/github.com/hyperledger/fabric-ca/sdkpatch/cryptosuitebridge"
 	"github.com/shiqinfeng1/fabric-sdk-go-gm/pkg/common/providers/core"

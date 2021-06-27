@@ -23,7 +23,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/magiconair/properties"
-	"github.com/spf13/cast"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/spf13/cast"
 	jww "github.com/spf13/jwalterweatherman"
 	"gopkg.in/yaml.v2"
 )

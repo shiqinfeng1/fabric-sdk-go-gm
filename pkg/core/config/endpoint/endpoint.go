@@ -7,9 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package endpoint
 
 import (
-
 	"encoding/pem"
-	"github.com/tjfoc/gmsm/sm2"
+	"github.com/shiqinfeng1/fabric-sdk-go-gm/tjfoc/gmsm/sm2"
 	"io/ioutil"
 	"strings"
 
